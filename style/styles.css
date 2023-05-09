@@ -55,6 +55,35 @@ p {
     font-size: 24px;
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.about-section h2 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+.about-section p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.about-section .btn-branding {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.about-info {
+    margin: 
+}
+
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
@@ -91,4 +120,9 @@ p {
     .hero p {
         font-size: 18px;
     }
+    .about-section {
+        text-align: center;
+        padding: 0;
+    }
 }
+
