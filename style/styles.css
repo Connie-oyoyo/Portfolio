@@ -55,27 +55,27 @@ p {
     font-size: 24px;
 }
 
-.about-section {
+.general {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.general h1 {
     font-size: 40px;
     line-height: 40px;
 }
 
-.about-section h2 {
+.general h2 {
     font-size: 20px;
     line-height: 25px;
     font-weight: normal;
 }
 
-.about-section p {
+.general p {
     font-size: 14px;
     line-height: 20px;
 }
 
-.about-section .btn-branding {
+.general .btn-branding {
     font-size: 16px;
     padding: 10px 20px;
 }
@@ -116,9 +116,13 @@ p {
     .hero p {
         font-size: 18px;
     }
-    .about-section {
+    .general {
         text-align: center;
         padding: 0;
+    }
+
+    .hero {
+    background:  rgb(214, 250, 155) 
     }
 }
 
